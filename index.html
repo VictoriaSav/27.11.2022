@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Victa PW</title>
+    <!-- есть тег style, но его так же лучше не 
+        использовать, т.к. вся работа будет в сss 
+        и других различных папках -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img
+          class="avatar"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdhYaYsDh1RdhNgNoxBJSEEe35kScKz-Apyg&usqp=CAU"
+          alt="sunflower"
+        />
+
+        <div class="info-text">
+          <h1>Viktoriia Savytska</h1>
+          <p>From 0 lerning Deutsch language and IT in Germany</p>
+          <p><strong>Made in Ukraine</strong></p>
+
+          <h4>My social media</h4>
+
+          <a
+            href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=222s"
+            target="_blank"
+            >Github</a
+          >
+          |
+          <a href="https://doramatv.live/vinchenco__A203b42/series15"
+            >Instagram</a
+          >
+        </div>
+        <!-- или сохранить картинку в папку
+    и вместе http писать название картинки -->
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>My hobbys</h2>
+        <ol class="list">
+          <li>Code</li>
+          <li>Eat</li>
+          <li>Sleep</li>
+          <li>Anime</li>
+          <li>Music</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Expirience work</h2>
+        <table class="table">
+          <tr>
+            <td>Ministry of Sports</td>
+            <td class="temp">Sport coach</td>
+            <td class="temp">2012-2019</td>
+          </tr>
+          <tr>
+            <td>Plastic Shop</td>
+            <td class="temp">Product manager</td>
+            <td class="temp">2019-2022</td>
+          </tr>
+
+          <!-- эти теги боди, хеад и есть еще футер используются
+    не так часто, в принципе их можно не использовать (tbody thead)
+    -->
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>youtube</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=222s"
+              >HTML для Начинающих - Практический Курс
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <div class="contact">
+          <h2>Contact me</h2>
+          <form>
+            <div class="row">
+              <div class="form-group">
+                <label class="name" for="name">Your name</label>
+                <input type="text" id="name" placeholder="Enter youre name" />
+              </div>
+
+              <div class="form-group">
+                <label class="name" for="email">Your email</label>
+                <input type="text" id="email" placeholder="Enter youre email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="name" for="text">Your text</label>
+              <textarea
+                name="Type your text"
+                id="text"
+                cols="20"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Connect" />
+          </form>
+        </div>
+
+        <!-- <div class="position">
+          <div class="box"></div>
+        </div> -->
+      </footer>
+
+      <!-- </div>
+    <div class="box-model">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div style="margin-bottom: 500px ;"></div> -->
+    </div>
+  </body>
+</html>

@@ -102,6 +102,10 @@ a:visited {
 
 } */
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .bg-yellow {
   background: rgb(155, 155, 97);
 }
